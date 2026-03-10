@@ -30,7 +30,7 @@ public class WorkWithFile {
                     + "result," + result;
             Files.writeString(Path.of(toFileName), report);
         } catch (IOException e) {
-            throw new RuntimeException("Can't handle files", e);
+            throw new RuntimeException("Can't handle files!", e);
         }
     }
 }
